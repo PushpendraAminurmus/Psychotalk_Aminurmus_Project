@@ -1,42 +1,24 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+.navbar{
+  background:rgb(241, 224, 36)
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.navbar-nav .nav-item .dropdown-item:hover {
+  color: black;
+  background-color: rgb(241, 224, 36);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.list_item , .brand{
+  color:#170e0e !important;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list_item:hover{
+  color:white !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.btn{
+  background:black !important;
+  border:none;
 }
-
-.card {
-  padding: 2em;
+button.navbar-toggler.collapsed{
+  background-color:#170e0e !important;
 }
-
-.read-the-docs {
-  color: #888;
+button.navbar-toggler{
+  background-color:#170e0e !important;
 }
